@@ -1,4 +1,5 @@
 # 📊 GenAI-Powered Personalized Financial Guidance
+![Alt Text](https://www.emagia.com/wp-content/uploads/2022/07/gia-banner.png?x58882&x58882)
 
 ## 🚨 Problem Statement
 ### Scaling Personalized Financial Guidance to Hundreds of Millions of Investors
@@ -12,6 +13,7 @@ Financial guidance is a critical aspect of personal wealth management, but tradi
 - ❌ Inefficient in providing **real-time personalized financial insights**.
 
 With **hundreds of millions of investors globally** seeking personalized financial advice, there is a massive gap in providing:
+![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxNglhnjFhkE3MJSgZpqZLeUoF104nPN7NioILoItxw036x_iyu3-vxwDWh_6fxGRuZqw&usqp=CAU)
 
 | Challenges                    | Impact                                  |
 |-------------------------------|------------------------------------------|
@@ -35,6 +37,7 @@ A scalable, AI-driven financial guidance system that automates:
 - Expense Tracking 💳
 - Tax Optimization Strategies 🧾
 - Real-time Financial Alerts ⏰
+![Alt Text](https://www.investopedia.com/thmb/6PhOzANk5XqxQK4jE59MPMsywUg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/investing.asp-final-9cbfccbd50344a828ddf1882a2fdc07c.png)
 
 ### How Does It Work?
 1. User inputs financial goals and risk tolerance via **Google IDX Web Interface**.
@@ -44,6 +47,7 @@ A scalable, AI-driven financial guidance system that automates:
    - Real-time Market Insights
    - Risk Mitigation Strategies
 4. The user receives **fully personalized financial advice** via conversational AI without human intervention.
+![Alt Text](https://globecapital.com/wp-content/uploads/2024/12/globecapital-personalized-finance-solutions-for-the-future.jpg)
 
 ---
 
@@ -58,6 +62,7 @@ A scalable, AI-driven financial guidance system that automates:
 | Stripe API       | Payment Gateway for Premium Services |
 
 ---
+![Alt Text](https://personetics.com/wp-content/uploads/2022/02/Screen-Shot-2022-02-17-at-4.26.32-PM-1024x497.png)
 
 ## 🌐 Practical Implementation Architecture
 ```plaintext
@@ -104,6 +109,7 @@ print(response)
 
 #### 4. Compliance Automation
 **Tech Stack:** Gemini-Nano + Regulatory Knowledge Graph
+![Alt Text](https://www.investopedia.com/thmb/2GNtWbJwJxH1R123IWX-aCC8daU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/smart-money.asp-final-8ee177be21d64bc8892a1a32c2a92c82.png)
 
 ```python
 from google.api_core import client_options  
@@ -132,6 +138,7 @@ print("SEC Rule 15 violation detected")
 ```
 
 ---
+![Alt Text](https://media.geeksforgeeks.org/wp-content/uploads/20230322180446/INVESTING-BANKING-copy.webp)
 
 ## ⚙️ How to Run
 
@@ -184,6 +191,7 @@ client = aiplatform.gapic.PredictionServiceClient()
 👉 Live Demo with Google Cloud [Click Here](https://your-demo-link.com)
 
 ---
+
 
 ### License
 Apache 2.0
