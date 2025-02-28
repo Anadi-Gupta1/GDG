@@ -13,7 +13,7 @@ Financial guidance is a critical aspect of personal wealth management, but tradi
 - ❌ Inefficient in providing **real-time personalized financial insights**.
 
 With **hundreds of millions of investors globally** seeking personalized financial advice, there is a massive gap in providing:
-![Alt Text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxNglhnjFhkE3MJSgZpqZLeUoF104nPN7NioILoItxw036x_iyu3-vxwDWh_6fxGRuZqw&usqp=CAU)
+
 
 | Challenges                    | Impact                                  |
 |-------------------------------|------------------------------------------|
