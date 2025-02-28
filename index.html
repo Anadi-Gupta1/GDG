@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI Financial Guidance</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.72/build/spline-viewer.js"></script>
+</head>
+<body class="bg-gradient-to-br from-gray-900 to-blue-900 text-white">
+
+<!-- Navigation -->
+<nav class="fixed w-full bg-black/50 backdrop-blur-md z-50">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div class="text-2xl font-bold">FinAI</div>
+        <div class="space-x-6">
+            <a href="#problem" class="hover:text-blue-400 transition">Problem</a>
+            <a href="#solution" class="hover:text-blue-400 transition">Solution</a>
+            <a href="#tech" class="hover:text-blue-400 transition">Technology</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section with 3D Model -->
+<section class="min-h-screen pt-32 px-6">
+    <div class="container mx-auto flex flex-col lg:flex-row items-center">
+        <div class="lg:w-1/2" data-aos="fade-right">
+            <h1 class="text-5xl font-bold mb-6">AI-Powered Financial Guidance</h1>
+            <p class="text-xl mb-8">Democratizing access to personalized investment strategies through GenAI</p>
+            <button class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg transition">
+                Try Demo
+            </button>
+        </div>
+        <div class="lg:w-1/2 mt-12 lg:mt-0" data-aos="fade-left">
+            <spline-viewer 
+                loading-anim 
+                url="https://prod.spline.design/pzwKpkz80y1LDrCZ/scene.splinecode"
+                class="w-full h-96">
+            </spline-viewer>
+        </div>
+    </div>
+    <audio id="starboyAudio" loop controls autoplay>
+        <source src="Starboy-Slowed-Reverb.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+</section>
+
+<!-- Problem Statement Section -->
+<section id="problem" class="py-20 px-6 bg-gray-800/50">
+    <div class="container mx-auto" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-12 text-center">Challenges in Financial Advisory</h2>
+        
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="p-6 bg-gray-700 rounded-lg hover:transform hover:scale-105 transition">
+                <div class="text-blue-400 text-3xl mb-4">❌</div>
+                <h3 class="text-xl font-bold mb-3">High Costs</h3>
+                <p class="text-gray-300">Traditional advisors charge 1-2% AUM, making it inaccessible for 80% of investors</p>
+            </div>
+            
+            <div class="p-6 bg-gray-700 rounded-lg hover:transform hover:scale-105 transition">
+                <div class="text-blue-400 text-3xl mb-4">⏳</div>
+                <h3 class="text-xl font-bold mb-3">Slow Decisions</h3>
+                <p class="text-gray-300">Average 3-5 day response time for portfolio adjustments</p>
+            </div>
+            
+            <div class="p-6 bg-gray-700 rounded-lg hover:transform hover:scale-105 transition">
+                <div class="text-blue-400 text-3xl mb-4">🌍</div>
+                <h3 class="text-xl font-bold mb-3">Limited Access</h3>
+                <p class="text-gray-300">Only 12% of developing markets have access to quality advisory</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Solution Section -->
+<section id="solution" class="py-20 px-6">
+    <div class="container mx-auto" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-12 text-center">Our AI-Driven Solution</h2>
+        
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="bg-gradient-to-br from-blue-600 to-purple-600 p-8 rounded-xl">
+                <h3 class="text-2xl font-bold mb-4">Real-time Portfolio Optimization</h3>
+                <p class="mb-6">Continuous market analysis with 150+ data points processed every second</p>
+                <div class="animate-pulse bg-white/10 p-4 rounded-lg">
+                    <span class="font-mono">$AAPL: +2.4% ↑</span> | <span class="font-mono">NVDA: -1.2% ↓</span>
+                </div>
+            </div>
+            
+            <div class="space-y-8">
+                <div class="p-6 bg-gray-800 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3">⚡ Instant Insights</h3>
+                    <p>95% faster decision-making with NLP-powered analysis</p>
+                </div>
+                
+                <div class="p-6 bg-gray-800 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3">🔒 Secure & Compliant</h3>
+                    <p>Automated compliance with 50+ regulatory frameworks</p>
+                </div>
+                
+                <div class="p-6 bg-gray-800 rounded-lg">
+                    <h3 class="text-xl font-bold mb-3">🌐 Multi-lingual</h3>
+                    <p>Support for 45 languages via Gemini NLP</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tech Stack Section -->
+<section id="tech" class="py-20 px-6 bg-gray-800/50">
+    <div class="container mx-auto" data-aos="fade-up">
+        <h2 class="text-4xl font-bold mb-12 text-center">Technology Stack</h2>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div class="p-6 hover:bg-gray-700 rounded-lg transition">
+                <img src="https://www.gstatic.com/aihub/static_shared/aihub-16x9.png" class="h-16 mx-auto mb-4">
+                <h3 class="font-bold">Google Gemini</h3>
+            </div>
+            
+            <div class="p-6 hover:bg-gray-700 rounded-lg transition">
+                <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" class="h-16 mx-auto mb-4">
+                <h3 class="font-bold">TensorFlow</h3>
+            </div>
+            
+            <div class="p-6 hover:bg-gray-700 rounded-lg transition">
+                <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" class="h-16 mx-auto mb-4">
+                <h3 class="font-bold">Firebase</h3>
+            </div>
+            
+            <div class="p-6 hover:bg-gray-700 rounded-lg transition">
+                <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" class="h-16 mx-auto mb-4">
+                <h3 class="font-bold">Kubernetes</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black/80 py-12">
+    <div class="container mx-auto px-6 text-center">
+        <p class="mb-4">Apache 2.0 License | Open Source Project</p>
+        <p class="text-gray-400">Powered by Google AI & Gemini LLM</p>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true,
+        offset: 120
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script>
+    // Scene, Camera, Renderer
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
+
+    // Lighting
+    const ambientLight = new THREE.AmbientLight(0x404040, 2); // Soft white light
+    scene.add(ambientLight);
+
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(5, 5, 5).normalize();
+    scene.add(directionalLight);
+
+    // Load 3D Model
+    const loader = new THREE.GLTFLoader();
+    let model;
+
+    loader.load(
+        'path/to/your/model.glb', // Replace with the path to your 3D model
+        (gltf) => {
+            model = gltf.scene;
+            scene.add(model);
+            console.log('Model loaded successfully!');
+        },
+        undefined,
+        (error) => {
+            console.error('Error loading model:', error);
+        }
+    );
+
+    // Camera Position
+    camera.position.z = 5;
+
+    // Animation Loop
+    function animate() {
+        requestAnimationFrame(animate);
+
+        // Rotate the model (if loaded)
+        if (model) {
+            model.rotation.y += 0.01;
+        }
+
+        renderer.render(scene, camera);
+    }
+
+    animate();
+
+    // Handle Window Resize
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+        const music = document.getElementById("bg-music");
+        music.play().catch(() => {
+            console.log("Autoplay blocked, waiting for user interaction");
+            document.body.addEventListener("click", () => {
+                music.play();
+            }, { once: true });
+        });
+    });
+    
+  window.addEventListener("DOMContentLoaded", () => {
+    const audio = document.getElementById("starboyAudio");
+
+    // Automatically play after 1 second without asking
+    setTimeout(() => {
+      audio.play().catch(e => console.log("Autoplay blocked 😈"));
+    }, 1000);
+  });
+
+</script>
+</body>
+</html>
